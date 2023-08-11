@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personel Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="NR71.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Fullstack Developer</p>
+                    <h1>Hi,I'm <span>Nagaraju</span><br>Pulle From Medak</h1>
+                </div>
+            </div>
+        </div>
+        <!................about..........>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="nagaraju.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 sub-title>About Me</h1>
+                        <p>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills. Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company  as well as to enhance my knowledge about new and emerging trends in the IT sector.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend</span><br>HTML,CSS,Bootstrap,JavaScript,React JS</li>
+                                <li><span>Backend</span><br>Python,Express,Node js</li>
+                                <li><span>Database</span><br>SQLite</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.Tech in Electrical & Electronics Engineering<br>RGUKT Basar</li>
+                                <li><span>2017-2019</span><br>Pre-University Course in MPC<br>RGUKT Basar</li>
+                                <li><span>2016-2017</span><br>SSC<br>ZPHS(Boys)Toopran</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!...............................services......................>
+        <div id="services">
+            <div class="container">
+                <h1 sub-title>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>MERN Full Stack Development</h2>
+                        <p>I gained hands-on experience in various technologies like HTML,CSS,JS,Python,Sqlite,MongoDB,Express Js,Node Js,React Js</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I like making websites look pretty.I know that good design is just as important as good development</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Web Development</h2>
+                        <p>I have built various websites with range of functionality,including static,responsive and dynamic sites</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!.............Portfolio..................>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://img.freepik.com/free-photo/top-view-pakistan-meal-assortment_23-2148821514.jpg?w=360&t=st=1685003864~exp=1685004464~hmac=46e9d2289772268bc8853fc507405adbd63fa7543b3fea7f8abe503e6aba0ac8">
+                        <div class="layer">
+                            <h3>Food Munch Website</h3>
+                            <p>Developed a responsive website for Food Store where users can see a list of food items, detailed information
+                                about a food item, offers</p>
+                            <a href="https://nagaraju7.ccbp.tech/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://as1.ftcdn.net/v2/jpg/04/77/11/36/1000_F_477113699_x8XwJziWyVSxJQJTMTIKAERDLjfKlkCn.jpg">
+                        <div class="layer">
+                            <h3>Todo List</h3>
+                            <p>Developed persistent todo application with CRUD operations to track list of tasks.</p>
+                            <a href="https://todonagaraju7.ccbp.tech/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://img.freepik.com/free-photo/web-directory-search-engine-browser-find-concept_53876-124229.jpg?w=900&t=st=1685004750~exp=1685005350~hmac=8170fee9c6395016b341b8bf246dea1042364ba2bc8822d1da6b32ac89f252e5">
+                        <div class="layer">
+                            <h3>Wikipedia Search Application</h3>
+                            <p>Developed custom wikipedia search application where user can search and view curated results and can see
+                                detailed explanation in wikipedia by clicking on the specific result</p>
+                            <a href="https://wikinagaraju7.ccbp.tech/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+
+            <!......................contact..............>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-paper-plane"></i>pullenagaraju7@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i>9666640691</p>
+                            <div class="social-icons">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/pullenagaraju7/"><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://www.instagram.com/nagaraju_1432/?hl=en"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <a href="NagaR.pdf" class="btn btn2">Download Resume</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2" >Submit</button>
+                            </form>
+                            <span id="msg">Hello</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Nagaraju Pulle<i class="fas fa-heart"></i>Toopran</p>
+            </div>
+
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzApKaCTr2cUYQsgI3g6JpWIfUIhrb_yOvSrqraKWymtHo9VZRAXUy0Jg9WtjLteDXW/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
